@@ -32,9 +32,6 @@ h1 {
     border-radius: 3px;
     padding: 3px;
 }
-.larger {
-    width: 40vw;
-}
 #model-info {
     display: none;
     height:5vw;
