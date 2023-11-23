@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>The Furniture Store</title>
+</head>
+<body>
+    <header>
+        <a class="back" href="../index.html">Back</a>
+        <h1>Lamp</h1>
+    </header>
+    <section>
+        <model-viewer class="larger" src="../assets/glb/lamp.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="../assets/images/lamp_poster.webp" shadow-intensity="1" auto-rotate camera-orbit="444.9deg 76.73deg 11.68m" field-of-view="30deg">
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <button slot="ar-button" id="ar-button">
+                View in your space
+            </button>
+            <div id="ar-prompt">
+                <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+            </div>
+        </model-viewer>
+            <a id="desc" href="#">Product description</a>
+            <div id="model-info">
+                <p>
+                    The soft denim fabric creates a warm and inviting glow when illuminated, enhancing the ambiance of your room. With its minimalist yet sophisticated appeal, this standing lamp effortlessly elevates your décor, providing both functional lighting and a tasteful aesthetic accent to your home or office environment.
+            </div>
+    </section>
+    <footer>
+        © 2023 The Furniture Store | All Rights Reserved
+    </footer>
+</body>
+<script src="../assets/js/script.js"></script>
+</html>

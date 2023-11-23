@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 245, 214);
+    color:black;
+    margin:0 5vw;
+    padding:0;
+}
+
+h1 {
+    font-size: xx-large;
+    color: rgb(93, 18, 18);
+}
+
+#main-grid {
+    display: grid;
+    grid-template-columns: 30vw 50vw;
+    grid-template-rows: auto auto auto;
+}
+
+.gridbox {
+    padding: 2vw;
+}
+
+.thmb {
+    width: 20vw;
+}
+
+
+/* Model viewer */
+.Hotspot {
+    background-color: #e3e3e3;
+    color: rgb(9, 47, 34);
+    border-radius: 3px;
+    padding: 3px;
+}
+.larger {
+    width: 40vw;
+}
+#model-info {
+    display: none;
+    height:5vw;
+    background-color: rgb(71, 6, 6);
+    color: white;
+    text-align: center;
+    padding-top: 1vw;
+}

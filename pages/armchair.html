@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>The Furniture Store</title>
+</head>
+<body>
+    <header>
+        <a class="back" href="../index.html">Back</a>
+        <h1>Armchair</h1>
+    </header>
+    <section>
+            <model-viewer class="larger" src="../assets/glb/armchair.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="../assets/images/armchair_poster.webp" shadow-intensity="1" camera-orbit="68.85deg 81.29deg 8.699m" field-of-view="30deg" auto-rotate>
+                <button class="Hotspot" slot="hotspot-1" data-position="1.005581828141792m 0.7772000942896217m 0.04068588364799047m" data-normal="0.6540135128228632m 0.2878326671352517m 0.6995846487558927m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Golden legs</div>
+                </button><button class="Hotspot" slot="hotspot-2" data-position="-1.1187158029897804m 2.6643392768900496m 0.22000133559891588m" data-normal="0.655807134822513m 0.6783300077706035m 0.3313388031514261m" data-visibility-attribute="visible">
+                    <div class="HotspotAnnotation">Woolen corduroy</div>
+                </button>
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+                <button slot="ar-button" id="ar-button">
+                    View in your space
+                </button>
+                <div id="ar-prompt">
+                    <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                </div>
+            </model-viewer>
+            <a id="desc" href="#">Product description</a>
+            <div id="model-info">
+                <p>
+                    Designed for both visual appeal and comfort, this piece promises a perfect balance between modern elegance 
+                    and cozy relaxation, making it an exquisite addition to your home or office décor.
+                </p>
+            </div>
+    </section>
+    <footer>
+        © 2023 The Furniture Store | All Rights Reserved
+    </footer>
+</body>
+<script src="../assets/js/script.js"></script>
+</html>
